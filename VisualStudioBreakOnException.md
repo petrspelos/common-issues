@@ -3,8 +3,8 @@
 
 __To Enable__
 
-- Step 1, In the Visual Studio IDE, Navigate to: __Debug > Windows > Exception Settings__  
-- Step 2, Ensure you have a __Tick__ (Not a black square) in the one named: __Common Language Runtime Exceptions__
+- **Step 1**, In the Visual Studio IDE, Navigate to: __Debug > Windows > Exception Settings__  
+- **Step 2**, Ensure you have a __Tick__ (Not a black square) in the one named: __Common Language Runtime Exceptions__
 
 <p align="center">
     <img src="https://cdn.discordapp.com/attachments/462143768066260992/473731579945025537/de837a.png">
