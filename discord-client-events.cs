@@ -8,13 +8,6 @@ using System;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CommunityBot.Configuration;
-using CommunityBot.Features;
-using CommunityBot.Features.Lists;
-using CommunityBot.Features.Onboarding;
-using CommunityBot.Features.Trivia;
-using CommunityBot.Helpers;
-using CommunityBot.Modules;
 using Discord;
 using Discord.WebSocket;
 
@@ -28,21 +21,11 @@ namespace CommunityBot.Handlers
     {
         private readonly DiscordSocketClient _client;
         private readonly CommandHandler _commandHandler;
-        private readonly ApplicationSettings _applicationSettings;
-        private readonly Logger _logger;
-        private readonly TriviaGames _triviaGames;
-        private readonly ListManager _listManager;
-        private readonly IOnboarding _onboarding;
 
-        public DiscordEventHandler(Logger logger, TriviaGames triviaGames, DiscordSocketClient client, CommandHandler commandHandler, ApplicationSettings applicationSettings, ListManager listManager, IOnboarding onboarding)
+        public DiscordEventHandler(DiscordSocketClient client, CommandHandler commandHandler)
         {
-            _logger = logger;
             _client = client;
             _commandHandler = commandHandler;
-            _applicationSettings = applicationSettings;
-            _triviaGames = triviaGames;
-            _listManager = listManager;
-            _onboarding = onboarding;
         }
 
         public void InitDiscordEvents()
@@ -83,14 +66,6 @@ namespace CommunityBot.Handlers
             _client.UserUnbanned += UserUnbanned;
             _client.UserUpdated += UserUpdated;
             _client.UserVoiceStateUpdated += UserVoiceStateUpdated;
-
-            // THIS ONE IS AN EXCEPTION!
-            // I don't know how we should handle contidional 
-            // subscription to an event otherwise...
-            if (!Global.Headless)
-            {
-                _client.Log += _logger.Log;
-            }
         }
 
         private async Task ChannelCreated(SocketChannel channel)
