@@ -13,11 +13,15 @@ Above you will see a file named ``EmbedHandler.cs`` you can either download that
 //In this example I am placing the EmbedHandler.cs into a folder named Handlers.
 //As such the namespace will reflect that.
 namespace MyAwesomeBot.Handlers.DiscordAddons
+```
 
+```cs
 //Now to actually use it.
 //Add a using directive for the handler.
 using Handlers.DiscordAddons;
+```
 
+```cs
 //Now you can use the handler by simply invoking the method
 //Remember that this handler returns the Embed object.
 //Option 1 (Save the embed as a variable to use somewhere in your code):
