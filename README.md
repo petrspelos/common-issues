@@ -4,3 +4,7 @@ A repository of common issues that people encounter while developing a Discord b
 ### Common Issues
 - [ArgumentException In AddModulesAsync](Issues/ArgumentExceptionAddModulesAsync.md)
 - [Visual Studio IDE Break On Exception](Issues/VisualStudioBreakOnException.md)
+
+### Discord.Net Addons
+
+- [EmbedHandler Addon](Discord.Net-Addons/EmbedHandler/)
