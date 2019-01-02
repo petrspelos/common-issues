@@ -2,6 +2,10 @@
 
 **This addon allows you to easily create simple Embeds and can be extended to allow the creation or more complex Embedss as you see fit.**
 
+## How To Add To Your Project
+
+Above you will see a file named ``EmbedHandler.cs`` you can either download that file and add it to your project, or you can copy the raw data directly into a new class in your project.
+
 ## How To Setup
 
 ```cs
