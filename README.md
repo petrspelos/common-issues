@@ -3,3 +3,4 @@ A repository of common issues that people encounter while developing a Discord b
 
 ### Common Issues
 - [ArgumentException In AddModulesAsync](ArgumentExceptionAddModulesAsync.md)
+- [Visual Studio IDE Break On Exception](VisualStudioBreakOnException.md)
