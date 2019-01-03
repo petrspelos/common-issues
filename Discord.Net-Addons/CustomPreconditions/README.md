@@ -6,7 +6,7 @@
 
 ## How To Add To Your Project
 
-Goto the Class [Here](CustomPrecondition.cs) then copy all the raw data of the .cs file into your own new class in your bot project. Or Download the file and add it .cs to your project.
+Goto the Class [Here](CustomPrecondition.cs) then copy all the raw data of the .cs file into your own new class in your bot project. Or Download the file and add the .cs to your project.
 
 Change the Namespace to reflect your project. In our case we have a bot named MyAwesomeBot and the pronditions are in a folder named Preconditions.
 
