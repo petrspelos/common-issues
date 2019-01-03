@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using Discord;
 using Discord.WebSocket;
 
-namespace CommunityBot.Handlers
+namespace MyAwesomeBot.Handlers
 {
     /// <summary>
     /// Put your subscriptions to events here!
