@@ -1,4 +1,4 @@
-# How To Add These Events To Your Project
+# Discord Client Events
 
 __NOTE__: This Requires Dependency Injection Be Setup For Your Bot. **[Tutorial Here](https://www.youtube.com/watch?v=ww6Dn0O70VA)**
 
@@ -27,7 +27,7 @@ using MyAwesomeBot.Handlers;
 //TODO: Add How to add it initialize it on the project.
 ```
 
-That's it. If you have any issues using this or just need some help adding to it use the links below to find me on Discord.
+That's it. If you have any issues using this or just need some help adding to it use the links below to find us on Discord.
 
 Author: Spelos#8008 (Peter)
 
