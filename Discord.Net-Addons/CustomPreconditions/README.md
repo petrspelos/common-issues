@@ -16,7 +16,7 @@ namespace MyAwesomeBot.Preconditions
 
 ## Understanding The Example
 
-You can find this line in the .cs file on line 9. This is where you will setup any variables you intend on using for your precondition. Seeing as we're creating a precondition that makes the command require a specific guild to be ran. We will need the GuildID to check.
+You can find this line in the .cs file on line 9. This is where you will setup any variables you intend on using for your precondition. Seeing as we're creating a precondition that makes the command require a specific guild to be ran. We will need the GuildID to check against.
 
 ```cs
 //your variables
@@ -48,18 +48,18 @@ public RequireSpecificGuild(ulong guildId)
 Now We can set out our logic for the precondition. To this we have to overried the default way the ``CheckPermissionsAsync`` method functions (To add our precondition to it).
 
 ```cs
-        public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
+public override Task<PreconditionResult> CheckPermissionsAsync(ICommandContext context, CommandInfo command, IServiceProvider services)
+{
+    if(context.Guild.Id != _guildId)
+    {
+        //Your command handler will get an error with this message
+        return Task.FromResult(PreconditionResult.FromError($"You can't use this command in this guild."));
+        }
+        else
         {
-            if(context.Guild.Id != _guildId)
-            {
-                //Your command handler will get an error with this message
-                return Task.FromResult(PreconditionResult.FromError($"You can't use this command in this guild."));
-            }
-            else
-            {
-                //Command wil execute
-                return Task.FromResult(PreconditionResult.FromSuccess());
-            }
+            //Command wil execute
+            return Task.FromResult(PreconditionResult.FromSuccess());
+        }
 }
 ```
 
