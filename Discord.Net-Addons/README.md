@@ -5,3 +5,4 @@ Here is a collection of addons you can easily port into your Discord.Net Project
 
 - [Embed Handler](EmbedHandler/)
 - [DiscordClientEvents](DiscordClientEvents/)
+- [Custom Precondition Guide](CustomPreconditions/)
