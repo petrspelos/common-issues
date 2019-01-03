@@ -14,7 +14,7 @@ Goto the Class [Here](discord-client-events.cs) then copy all the raw data of th
 //First you will need to change the namespace to reflect your bot's structure.
 //In this example I am placing the discord-client-events.cs into a folder named Handlers.
 //As such the namespace will reflect that.
-namespace CommunityBot.Handlers
+namespace MyAwesomeBot.Handlers
 ```
 
 ```cs
