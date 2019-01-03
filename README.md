@@ -8,3 +8,4 @@ A repository of common issues that people encounter while developing a Discord b
 ### Discord.Net Addons
 
 - [EmbedHandler Addon](Discord.Net-Addons/EmbedHandler/)
+- [ClientEvents Handler Addon](Discord.Net-Addons/DiscordClientEvents)
