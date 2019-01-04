@@ -1,4 +1,4 @@
-# Basic Command Guide Discord.Net 2.0
+# Commands With Parameters Guide Discord.Net 2.0
 
 ### This will cover the basics of setting up your own custom command modules in Discord.Net 2.0
 
@@ -28,7 +28,7 @@ Now as you can see we have two new additions to the command compared to the Basi
 - `string text`
   - This is acutally our parameter we're giving our Task. This parameter is just like any other you have have used it the past. It has a Type `string` and a name `text`. Essentially this tells the CommandService that for this command, we don't only need the command itself `!say` but also some extra info too. In this case it's the text we want the bot to reply back to us with.
 - `[Remainder]`
-  - This is what is called an attribute, you can read up more on them here [Command Attributes](../). Essentially this attribute lets us take all the text after the command `!say` and save it in the variable `text`. The reason this Attribute is important is because without it, if we did the command `!say Hello World!` it would only reply with `You said: Hello`. This is because by default the command handler splits up what we type after a command by spaces, so by default our command is split up like so;
+  - This is what is called an attribute, you can read up more on them here [Command Attributes](../CommandAttributes/). Essentially this attribute lets us take all the text after the command `!say` and save it in the variable `text`. The reason this Attribute is important is because without it, if we did the command `!say Hello World!` it would only reply with `You said: Hello`. This is because by default the command handler splits up what we type after a command by spaces, so by default our command is split up like so;
     - The command itself: `!say`
     - The First Parameter: `Hello`
     - The Seccond Parameter: `World!`
