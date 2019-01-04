@@ -238,7 +238,7 @@ namespace MyAwesomeBot.Handlers
             
         }
 
-        private async Task UserUpdated(SocketUser user, SocketUser guild)
+        private async Task UserUpdated(SocketUser oldUser, SocketUser newUser)
         {
             
         }
