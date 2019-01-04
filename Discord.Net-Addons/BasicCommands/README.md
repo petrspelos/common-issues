@@ -10,7 +10,7 @@ Modules are at the core of every command you make in Discord.Net 2.0, They're es
 
 To create a new module, you first want to make a new folder in your project. This can be named anything, however try stick to a naming convertion that will be easy to understand.
 
-- Common Names Are `Modules & Commamds`
+- Common Names Are `Modules & Commands`
 
 Once you have your new folder in your project you will want to create a new class inside it, name it something relevent to the type of commands you're making. I'm going to call this one `BasicCommandGuide`. Once you make the new class you should have something that looks like this.
 
@@ -69,13 +69,13 @@ Note in the above code, the use of `Async` and `Await` this is because everythin
 
 That's it for this part of the guide. If you want to continue this guide where we go into something a tiny bit more advanced, click on one of the links below.
 
-- [Commands With Parameters]()
-- [Commands With Advanced Parameters]()
-- [Commands Using Services]()
-- [Command Grouping]()
-- [Command Attributes]()
+- [Commands With Parameters](WithParameters/)
+- [Commands With Advanced Parameters](AdvancedParameters/)
+- [Commands Using Services](CommandsWithServices/)
+- [Command Grouping](CommandGrouping/)
+- [Command Attributes](CommandAttributes/)
 
-If none of the above guides covers your current issue, jump into our discord (Link Below) and ask for help. If you don't want to use Discord, you can use the link [HERE](https://github.com/discord-bot-tutorial/common-issues/issues) to open a new issue directly from this github repo, this will send a notification to our discord server where one of the many Helpers we have can get back to you.
+If none of the above guides cover your current issue, jump into our discord (Link Below) and ask for help. If you don't want to use Discord, you can use the link [HERE](https://github.com/discord-bot-tutorial/common-issues/issues) to open a new issue directly from this github repo, this will send a notification to our discord server where one of the many Helpers we have can get back to you.
 
 Author: Draxis#0359
 
