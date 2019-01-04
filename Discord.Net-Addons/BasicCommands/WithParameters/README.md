@@ -57,10 +57,10 @@ As you can see in the above example, we're not using the `[Remainder]` attribute
 
 That's it for this section of the Guide, if you feel like you want to learn more then please use the links below to continue the guides.
 
-- [Commands With Advanced Parameters](AdvancedParameters/)
-- [Commands Using Services](CommandsWithServices/)
-- [Command Grouping](CommandGrouping/)
-- [Command Attributes](CommandAttributes/)
+- [Commands With Advanced Parameters](../AdvancedParameters/)
+- [Commands Using Services](../CommandsWithServices/)
+- [Command Grouping](../CommandGrouping/)
+- [Command Attributes](../CommandAttributes/)
 
 If none of the above guides cover your current issue, jump into our discord (Link Below) and ask for help. If you don't want to use Discord, you can use the link [HERE](https://github.com/discord-bot-tutorial/common-issues/issues) to open a new issue directly from this github repo, this will send a notification to our discord server where one of the many Helpers we have can get back to you.
 
