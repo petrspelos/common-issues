@@ -6,6 +6,7 @@ As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus One
 
 - [ArgumentException In AddModulesAsync](Issues/ArgumentExceptionAddModulesAsync.md)
 - [Visual Studio IDE Break On Exception](Issues/VisualStudioBreakOnException.md)
+- [BadArgCount](BadArgCount.md)
 
 ### Discord.Net Addons
 
