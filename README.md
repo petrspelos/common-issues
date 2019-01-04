@@ -12,3 +12,4 @@ As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus One
 - [EmbedHandler Addon](Discord.Net-Addons/EmbedHandler/)
 - [ClientEvents Handler Addon](Discord.Net-Addons/DiscordClientEvents)
 - [Custom Precondition Guide](Discord.Net-Addons/CustomPreconditions)
+- [Generate Help Embeds with CommandService extensions](https://github.com/Charly6596/Discord.Addons.CommandsExtension)
