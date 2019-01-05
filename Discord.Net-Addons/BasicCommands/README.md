@@ -67,6 +67,8 @@ public class BasicCommandGuide : ModuleBase<SocketCommandContext>
 
 Note in the above code, the use of `Async` and `Await` this is because everything in Discord.Net 2.0 uses asynchronous programming. These asynchronous Methods (Like `ReplyAsync`) require we place the word `await` before the call to the method. Read up on Asynchronous Programming Here: [Asynchronous Programming - Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
 
+---
+
 That's it for this part of the guide. If you want to continue this guide where we go into something a tiny bit more advanced, click on one of the links below.
 
 - [Commands With Parameters](WithParameters/)
