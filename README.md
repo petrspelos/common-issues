@@ -15,3 +15,6 @@ As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus One
 - [Custom Precondition Guide](Discord.Net-Addons/CustomPreconditions)
 - [Generate Help Embeds with CommandService extensions](https://github.com/Charly6596/Discord.Addons.CommandsExtension)
 - [Basic Commands Guide](Discord.Net-Addons/BasicCommands/)
+
+### DSharpPlus Addons & Guides
+- [Using your own entities as command parameters & Converters introduction](https://github.com/Charly6596/DSharpConverterExample)
