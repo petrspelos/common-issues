@@ -33,4 +33,4 @@ string text
 
 So when we just try to use `!say` as the command, the Task doesn't know what to do as it requires the extra input. Doing `!say Hello`, the `Hello` part of the command fulfils what the Task needs and runs normally.
 
-- **NOTE: This example command is not meant to be used, For a more detailed guide on Commands check out our Basic Command Guide [Here](Temp)
+- **NOTE: This example command is not meant to be used, For a more detailed guide on Commands check out our Basic Command Guide [Here](../Discord.Net-Addons/BasicCommands)**
