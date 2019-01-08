@@ -95,7 +95,7 @@ _commandService = Global.CmdService;
 
 Now you have that done, you should be good to go again. Your bot will function as it did before and you now have a Global Static Client & CommandService.
 
-If you have any issues with something, check out the included example here: [Example Bot Using Global Static Properties](../)
+If you have any issues with something, check out the included example here: [Example Bot Using Global Static Properties](ExampleBot/)
 
 **Note:** You can extend the Global Class you now have to include whatever you may like. Maybe you want to include some Static Channel ID's, will you can. Just add a new property to your Global Class as shown below and you can use those values throughout your whole bot.
 
