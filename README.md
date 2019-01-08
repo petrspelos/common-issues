@@ -17,4 +17,9 @@ As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus One
 - [Basic Commands Guide](Discord.Net-Addons/BasicCommands/)
 
 ### DSharpPlus Addons & Guides
+
 - [Using your own entities as command parameters & Converters introduction](https://github.com/Charly6596/DSharpConverterExample)
+
+### DotNet Addons & Guides
+
+- [Random Picker Using LINQ](DotNet-Addons/PickRandomLINQ.cs)
