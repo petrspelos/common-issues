@@ -1,4 +1,8 @@
-## ArgumentException In AddModulesAsync()
+<p align="center">
+    <img src="../Images/ArgumentException.png">
+</p>
+
+# ArgumentException In AddModulesAsync()
 **This is a minor exception caused mainly when updating from Discord.Net 1.0.9 to Discord.Net 2.0**
 
 ```cs
