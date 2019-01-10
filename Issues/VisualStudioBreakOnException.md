@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="../Images/Issues.png">
+</p>
+
 # Ensure Visual Studio Breaks on Exceptions
 
 **This ensure the Visual Studio IDE breaks when an Exception is thrown. This is very handy to catch any erros during debug.**
