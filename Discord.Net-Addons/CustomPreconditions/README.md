@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="../../Images/CustomPreconditions.png">
+</p>
+
 # Custom Preconditions Example
 
 **__NOTE__: This is an example, while this precondition works (It requires a command be ran in a specific guild), It is meant as a guide only.**

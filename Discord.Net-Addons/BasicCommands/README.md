@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="../../Images/CommandsGuide/TheBasics.png">
+</p>
+
 # Basic Command Guide Discord.Net 2.0
 
 ### This will cover the basics of setting up your own custom command modules in Discord.Net 2.0
