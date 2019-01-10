@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="../Images/Issues.png">
+</p>
+
 # BadArgCount: The input text has too few parameters
 
 **This error is caused when you have a command that requires one or more parameters, however you give it less than it requires.**
