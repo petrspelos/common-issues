@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://i.imgur.com/UEC0YO3.png">
+    <img src="../Images/Nuget Packages.png">
 </p>
 
 # Nuget packages
