@@ -1,4 +1,7 @@
-# Discord-BOT-Tutorial Help Repo
+<p align="center">
+    <img src="/Images/HelpRepo.png">
+</p>
+
 A repository of common issues that people encounter while developing a Discord bot using C#.
 As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus Ones Coming Soon).
 
