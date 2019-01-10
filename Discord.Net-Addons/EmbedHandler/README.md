@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="../../Images/EmbedHandler.png">
+</p>
+
 # How To Add EmbedHandler To Your Project
 
 **This addon allows you to easily create simple Embeds and can be extended to allow the creation of more complex Embeds as you see fit.**

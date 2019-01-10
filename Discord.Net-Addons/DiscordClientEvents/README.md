@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="../../Images/ClientEvents.png">
+</p>
+
 # Discord Client Events
 
 __NOTE__: This Requires Dependency Injection Be Setup For Your Bot. **[Tutorial Here](https://www.youtube.com/watch?v=ww6Dn0O70VA)**

@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="../../Images/GlobalStatic.png">
+</p>
+
 # How to use a Global Static class to handle your Client & CommandService (Instead of Using Dependency Injection)
 
 _**Note: While this is a valid way to structure your Discord Bot, it is not the ideal way you want to go about it. Idealy you want to be using Dependency Injection To handle your Client & CommandService as-well as any other Concrete Class Services or Services in general.**_
