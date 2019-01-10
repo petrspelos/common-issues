@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="../Images/ArgumentException.png">
+    <img src="../Images/Issues.png">
 </p>
 
 # ArgumentException In AddModulesAsync()
