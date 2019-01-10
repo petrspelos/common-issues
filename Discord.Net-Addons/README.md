@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="../Images/DiscodNetAddons.png">
+</p>
+
 # Discord.Net Addons
 Here is a collection of addons you can easily port into your Discord.Net Project.
 
