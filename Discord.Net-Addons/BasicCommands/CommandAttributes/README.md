@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="../../../Images/CommandsGuide/Attributes.png">
+</p>
+
 # Advanced Commands Parameters Guide Discord.Net 2.0
 
 ### This will cover the basics of setting up your own custom command modules in Discord.Net 2.0
