@@ -31,3 +31,4 @@ As-well as some Discord.Net Addons you can add to your projects. (DSharpPlus One
 ### DotNet Addons & Guides
 
 - [Random Picker Using LINQ](DotNet-Addons/PickRandomLINQ.cs)
+- [Storing Data With JSON](DotNet-Addons/JSON-Storage/)
