@@ -16,7 +16,7 @@ public static class Extensions
 
     // An accessor is implemented to ensure each
     // thread uses an initialized random.
-    public static string Rnd
+    public static Random Rnd
     {
         get
         {
