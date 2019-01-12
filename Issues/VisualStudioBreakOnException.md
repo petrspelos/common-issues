@@ -4,7 +4,7 @@
 
 # Ensure Visual Studio Breaks on Exceptions
 
-**This ensure the Visual Studio IDE breaks when an Exception is thrown. This is very handy to catch any erros during debug.**
+**This ensures that the Visual Studio IDE breaks when an Exception is thrown. This is very handy to catch any errors while debugging.**
 
 __To Enable__
 
