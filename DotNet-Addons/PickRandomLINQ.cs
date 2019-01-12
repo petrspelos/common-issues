@@ -5,13 +5,28 @@
 // For an example here, we create a new "Extensions" class.
 public static class Extensions
 {
-    // In order to keep this snippet modular, this class has
-    // its own random. However, feel free to use any Random
-    // you might already have.
-    private static Random rnd = new Random();
+    // This class is using a ThreadStatic Random.
+    // this means each thread will get its own
+    // Random instance.
+    
+    // Seeding each Random per thread would result
+    // in a more true Randomness, however, this is
+    // not the goal of this snippet.
+    [ThreadStatic] private static Random _rnd;
+
+    // An accessor is implemented to ensure each
+    // thread uses an initialized random.
+    public static string Rnd
+    {
+        get
+        {
+            if (_rnd is null) { _rnd = new Random(); }
+            return _rnd;
+        }
+    }
 
     public static T PickRandom<T>(this IEnumerable<T> collection)
-        => collection.ElementAt(rnd.Next(0,collection.Count()));
+        => collection.ElementAt(Rnd.Next(0,collection.Count()));
 }
 
 // =====================================
